@@ -14,7 +14,8 @@ source=(http://dl.suckless.org/st/$pkgname-$pkgver.tar.gz
         config.h
         theme.h)
 sha256sums=('c4fb0fe2b8d2d3bd5e72763e80a8ae05b7d44dbac8f8e3bb18ef0161c7266926'
-            'bed7977c855f02e3968a754e813015e4214b52102e3c54712d8a52245bcceeec')
+            '780409c86bb8c11b4700e4073bf9397fb832241ea60308708f75c78756de04a0'
+            '7b41b325eef7a34edf849003027700a76bfc90be1bf9a87120c47f03505eb216')
 
 prepare() {
   cd $srcdir/$pkgname-$pkgver
